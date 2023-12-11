@@ -1,0 +1,28 @@
+
+		// line := scanner.Text()
+		// fmt.Println("Line:", line)
+		// start, end := 0, len(line)-1
+
+		// // Find the first digit
+		// for start < len(line) && !isNumber(line[start]) {
+		// 	start++
+		// }
+
+		// // Find the last digit
+		// for end >= 0 && !isNumber(line[end]) {
+		// 	end--
+		// }
+
+		// // Check if both digits are found
+		// if start < len(line) && end >= 0 {
+		// 	firstChar := string(line[start])
+		// 	secondChar := string(line[end])
+
+		// 	num, err := strconv.Atoi(firstChar + secondChar)
+		// 	if err != nil {
+		// 		fmt.Println("Error converting string to integer:", err)
+		// 		return
+		// 	}
+		// 	sum += num
+		// 	fmt.Println("Sum:", sum)
+		// }
